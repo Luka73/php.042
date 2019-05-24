@@ -17,6 +17,13 @@
             <br>
             <input type="submit" value="Entrar" class="btn btn-success">
         </form>
+        <br><br>
+        
+        <?php
+            if(isset($_GET["erro"]))
+                echo $_GET["erro"]; 
+        ?>
+        
     </div>
 </body>
 </html>
